@@ -1,9 +1,10 @@
 ## ziglang-learn
 
 read file 
-https://ravendb.net/articles/implementing-a-file-pager-in-zig-reading-writing-from-the-disk
-https://github.com/thomastay/phone-numbers-words/blob/master/zig/phone_number_words.zig#L84
-https://gist.github.com/komuw/98111edb30262f0c34d93e3aa7f537ed
+
+- https://ravendb.net/articles/implementing-a-file-pager-in-zig-reading-writing-from-the-disk
+- https://github.com/thomastay/phone-numbers-words/blob/master/zig/phone_number_words.zig#L84
+- https://gist.github.com/komuw/98111edb30262f0c34d93e3aa7f537ed, 
 
 Learning Zig 
 Today I’ve played around with Zig, the new, hip (is it hip?) programming language. I find it pretty neat. I’m going to walk you (and myself) through my first, very short, piece of code.
