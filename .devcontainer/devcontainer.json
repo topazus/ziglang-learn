@@ -1,0 +1,23 @@
+{
+	"name": "Fedora copr",
+	"build": {
+		"dockerfile": "Dockerfile",
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker"
+			],
+			// Adds VS Code settings.json values into the environment.
+			"settings": {
+				"workbench.settings.editor": "json",
+				"editor.fontLigatures": false,
+				"editor.formatOnSave": true,
+				"files.trimTrailingWhitespace": true,
+				"editor.fontWeight": "normal",
+			},
+		}
+	},
+	// Run Bash script in .devcontainer directory
+// 	"postCreateCommand": "/bin/bash ./.devcontainer/install.sh",
+}
