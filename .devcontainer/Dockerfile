@@ -1,4 +1,4 @@
-FROM opensuse/tumbleweed
+FROM opensuse/leap
 
 ENV container docker
 
@@ -20,8 +20,4 @@ RUN zypper -n install \
               curl \
               tar \
               unzip \
-              busybox-gzip \
-              rsync \
-              shadow \
-              fuse-devel \
               && zypper clean
