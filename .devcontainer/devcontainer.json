@@ -19,6 +19,6 @@
 		}
 	},
 	// Run Bash script in .devcontainer directory
-	"postCreateCommand": "/bin/bash ./.devcontainer/install.sh",
+// 	"postCreateCommand": "/bin/bash ./.devcontainer/install.sh",
 
 }
